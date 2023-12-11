@@ -136,6 +136,8 @@ margin-right: 76px;
     }
     .main-section-three {
         background-color: #F4F4FD;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
     .main-section-three-title {
         font-size: 36px;
@@ -144,22 +146,50 @@ margin-right: 76px;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2e2f42;
+        margin-bottom: 72px;
     }
+
+.main-section-three-list {
+    display: flex;
+    gap: 24px;
+}
         .main-section-three-item {
             background-color: #FFFFFF;
-        }
+            width: calc((100% - 72px) / 4);
+            border-radius: 0px 0px 4px 4px;           
+                   }
+
+.container-mark {
+padding-top: 32px;
+padding-bottom: 32px;
+}
+.container-tom {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.container-camila {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.container-daniel {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
         .main-section-three-name {
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: #2e2f42;
+            text-align: center;
+            margin-bottom: 8px
         }
         .main-section-three-position {
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #434455;
+            text-align: center;            
         }
         .main-section-four-title {
             font-size: 36px;
