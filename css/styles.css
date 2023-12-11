@@ -119,7 +119,7 @@ margin-right: 76px;
         gap: 24px;      
     }
 .main-section-two-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100%-72px)/4);
 }
     .main-section-two-name {
         font-weight: 500;
@@ -156,9 +156,9 @@ margin-right: 76px;
 }
         .main-section-three-item {
             background-color: #FFFFFF;
-            width: calc((100% - 72px) / 4);
-            border-radius: 0px 0px 4px 4px;           
-                   }
+            width: calc((100%-72px)/4);
+            border-radius: 0px 0px 4px 4px;
+                   }               
 
 .container-mark {
 padding-top: 32px;
@@ -214,7 +214,7 @@ padding-bottom: 32px;
 }
 
 .main-section-four-item {
-    width: calc((100% - 48px) / 3);
+    width: calc((100%-48px)/3);
 }
 
 .container-bank {
