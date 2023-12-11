@@ -3,6 +3,10 @@ font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
+
+.img {
+    display: block;
+}
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -286,6 +290,4 @@ border-top: none;
             letter-spacing: 0.02em;
             max-width: 264px;
         }
-        .img {
-            display: block;
-        }
+        
